@@ -1,10 +1,10 @@
 all: serve-src
 
 serve-src:
-	@php -S localhost:8000 -t src
+	@php -S localhost:8080 -t src
 
 serve-release:
-	@php -S localhost:8000 -t release
+	@php -S localhost:8080 -t release
 
 build:
 	@grunt
